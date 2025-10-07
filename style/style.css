@@ -34,7 +34,7 @@ form:hover {
 .name, .email, .password {
     display: flex;
     flex-direction: column;
-    margin: 15px 15px; 
+    margin: 10px 15px; 
 }
 
 form h1 {
