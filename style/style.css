@@ -18,10 +18,10 @@ form {
     flex-direction: column;
     justify-content: center;
     width: 100%;
-    max-width: 380px; /* حداکثر عرض */
+    max-width: 380px;
     background-color: #fff;
     border: 1px solid #eee;
-    border-radius: 20px;
+    border-radius: 13px;
     box-shadow: 0 10px 25px rgba(0,0,0,0.15), 0 6px 10px rgba(0,0,0,0.10);
     transition: 0.3s;
     padding: 20px 15px;
