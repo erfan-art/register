@@ -3,7 +3,7 @@ body {
   font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f9f9f9;
+  background:linear-gradient(135deg, #b1b1b1, #e7e7e7);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -24,19 +24,18 @@ form {
   justify-content: center;
   width: 100%;
   max-width: 380px;
-  background-color: #fff;
-  border: 1px solid #eee;
-  border-radius: 14px;
+  background: white;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 12px;
   padding: 25px 20px;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15),
               0 6px 10px rgba(0, 0, 0, 0.10);
-  transition: 0.3s ease;
+  transition: 0.3s;
 }
 
 form:hover {
-  box-shadow: 0 14px 35px rgba(0, 0, 0, 0.25),
-              0 10px 16px rgba(0, 0, 0, 0.12);
-  transform: translateY(-3px);
+  box-shadow: 0 18px 39px rgba(0, 0, 0, 0.27), 0 14px 20px rgba(0, 0, 0, 0.14);
+  transform: scale(5px);
 }
 
 .name, .email, .password {
@@ -47,43 +46,39 @@ form:hover {
 
 form h1 {
   text-align: center;
-  margin: 25px 10px;
-  letter-spacing: 1px;
+  margin: 12px 16px 25px;
+  letter-spacing: 2px;
   text-transform: uppercase;
   font-size: 24px;
-  color: #111;
+  color: #000;
 }
 
 #label-name, #label-email, #label-password {
   padding: 12px 15px;
-  border: 2px solid #ccc;
-  border-radius: 24px;
+  border: 2px solid #000000;
+  border-radius: 12px;
   width: 100%;
   box-sizing: border-box;
   font-size: 15px;
   outline: none;
   transition: 0.25s;
-}
-
-#label-name:focus, #label-email:focus, #label-password:focus {
-  border-color: rgb(239, 187, 45);
-  box-shadow: 0 0 0 3px rgba(251, 191, 52, 0.3);
+  background-color: #efecec;
 }
 
 label {
   font-size: 13px;
   font-weight: 500;
-  color: #444;
+  color: #000000;
   margin-bottom: 6px;
-  margin-left: 15px;
+  margin-left: 10px;
 }
 
 button {
-  margin: 20px 15px 10px;
+  margin: 30px 10px 16px;
   padding: 12px 0;
   font-size: 16px;
   font-weight: 600;
-  border-radius: 24px;
+  border-radius: 22px;
   background-color: #000;
   color: #fff;
   border: 2px solid #000;
@@ -92,15 +87,9 @@ button {
 }
 
 button:hover {
-  background-color: rgb(239, 181, 45);
-  border-color: rgb(239, 181, 45);
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(0, 0, 0);
   color: #000;
   transform: scale(1.02);
-  box-shadow: 0 0 20px rgba(239, 181, 45, 0.65);
-}
-
-button:active {
-  transform: scale(0.97);
-  box-shadow: 0 0 8px rgba(239, 181, 45, 0.4);
-  background-color: rgb(220, 165, 50); 
+  box-shadow: 0 0 20px rgba(243, 242, 242, 0.978);
 }
